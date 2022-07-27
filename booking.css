@@ -1,0 +1,56 @@
+.booking .book-form .flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    background-color: var(--light-bg);
+    margin: 20px;
+}
+.booking .book-form .flex .inputBox{
+    flex: 1 1 41rem;
+    padding: 2rem;
+}
+.booking .book-form .flex .inputBox input{
+    width: 100%;
+    padding:1.2rem 1.4rem;
+    font-size: 1.6rem;
+    color:var(--light-black);
+    text-transform: none;
+    margin-top: 1.5rem;
+    border:var(--border);
+ }
+ .booking .book-form .flex .inputBox select{
+    width: 100%;
+    padding:1.2rem 1.4rem;
+    font-size: 1.6rem;
+    color:var(--light-black);
+    text-transform: none;
+    margin-top: 1.5rem;
+    border:var(--border);
+ }
+ .booking .book-form .flex .inputBox input:focus{
+/* focus is used to select the element that has focus  */
+    background: var(--black);
+    color:var(--white);
+ }
+ .booking .book-form .flex .inputBox input:focus::placeholder{
+    color:var(--light-white);
+ }
+ .booking .book-form .flex .inputBox span{
+    font-size: 1.5rem;
+    color:var(--black);
+    padding: 2rem;
+ }
+ .booking .book-form .btn{
+    margin-top: 2rem;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+ }
+
+ /* error */
+p.formerror{
+   font-size: 1.5rem;
+   color: rgb(144, 24, 24);
+    text-transform: uppercase;
+    display: none;
+ }
