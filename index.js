@@ -13,3 +13,8 @@ window.onscroll = () =>{
 }
 
 // form validation
+function showAlert(event) {
+    event.preventDefault()
+    var myText = `Thanks for visiting Inkytales !!! Your query has been registered ;)`;
+    alert (myText);
+  }
